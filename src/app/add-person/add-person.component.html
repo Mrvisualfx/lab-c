@@ -1,0 +1,35 @@
+<form>
+  <div class="form-row">
+    <label for="firstName">First Name</label>
+    <input type="text" id="firstName" name="firstName" [(ngModel)]="person.firstName">
+  </div>
+
+  <div class="form-row">
+    <label for="lastName">Last Name</label>
+    <input type="text" id="lastName" name="lastName" [(ngModel)]="person.lastName">
+  </div>
+
+  <div class="form-row">
+    <label for="age">Age</label>
+    <input type="number" id="age" name="age" min="1" max="110" step="1" [(ngModel)]="person.age">
+  </div>
+
+  <div class="address">
+    <div class="form-row">
+      <label for="city">City</label>
+      <input type="text" id="city" name="city" [(ngModel)]="person.address.city">
+    </div>
+
+    <div class="form-row">
+      <label for="street">Street</label>
+      <input type="text" id="street" name="street" [(ngModel)]="person.address.street">
+    </div>
+
+    <div class="form-row">
+      <label for="postCode">Postcode</label>
+      <input type="text" id="postCode" name="postCode" [(ngModel)]="person.address.postCode">
+    </div>
+  </div>
+
+  <button type="button" (click)="save()">Save</button>
+</form>

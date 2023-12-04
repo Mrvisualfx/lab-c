@@ -1,0 +1,25 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 600px;
+  padding: 10px;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #efefef;
+  padding: 10px 0;
+}
+
+button {
+  max-width: 200px;
+}
+
+.form-row {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 3fr;
+}

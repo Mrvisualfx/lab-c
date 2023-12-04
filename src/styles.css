@@ -1,0 +1,24 @@
+body {
+  background: url("https://placehold.co/100x100/FFFFFF/EFEFEF/png?text=49435");
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color: #45ffac;
+  --secondary-color: #007c75;
+  --accent-color: #e8e7fa;
+  --shadow-color: #E8E8E8;
+}
+
+button.primary {
+  padding: 10px;
+  border: solid 1px var(--primary-color);
+  background: var(--primary-color);
+  color: white;
+  border-radius: 8px;
+}

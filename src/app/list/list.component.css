@@ -1,0 +1,13 @@
+button.delete {
+  outline: none;
+  border: 1px solid red;
+  color: red;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: white;
+  min-width: 30px;
+}
+
+a {
+  text-decoration: none;
+}
